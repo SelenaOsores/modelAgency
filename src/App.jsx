@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Academy from "./pages/Academy";
 import Navbar from "./components/Navbar";
+import Footer from './components/Footer';
 import './App.css';
 
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Academy' element={<Academy />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

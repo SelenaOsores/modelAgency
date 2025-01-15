@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from "../assets/logo.jpg";
 import { NavLink } from "react-router-dom";
-import './Navbar.css'; // Asegúrate de crear este archivo
 
 const Navbar = () => {
   return (
@@ -13,7 +12,7 @@ const Navbar = () => {
           <hr className='nav-underline' />
         </NavLink>
         <NavLink to="/academy" className="nav-item">
-          <p>Academy</p>
+          <p>Agencia</p>
           <hr className='nav-underline' />
         </NavLink>
         <NavLink to="/contact" className="nav-item">
