@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 12vh;
+  }
+  
+  .logo {
+    height: 12vh;
+    width: 12ch;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-item {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-item:hover {
+    color: #ff007f; /* Color de hover */
+  }
+  
+  .nav-item.active {
+    border-bottom: 2px solid #ff007f; /* Indicador de página activa */
+  }
