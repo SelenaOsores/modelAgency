@@ -25,7 +25,7 @@ const Academy = () => {
       <div className="agency-footer">
         <p>Seguinos en las redes</p>
         <a href="https://instagram.com/hbmodelsportfolio" target="_blank" rel="noopener noreferrer">
-          @hbmodelsportfolio
+          @patrydelalva
         </a>
       </div>
     </div>
